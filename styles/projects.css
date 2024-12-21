@@ -13,6 +13,10 @@
         padding-bottom: 21px;
         max-width: 380px;
 
+        cursor: pointer;
+
+        border: 1.5px solid var(--gray-300);
+
         img {
             width: 100%;
             border-radius: 8px;
@@ -27,6 +31,10 @@
                 font: var(--title-sm);
                 color: var(--gray-600);
             }
+        }
+
+        &:hover {
+            border-color: var(--gray-400)
         }
     }
 

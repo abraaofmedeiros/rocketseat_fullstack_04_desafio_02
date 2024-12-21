@@ -30,5 +30,11 @@
             margin-bottom: 8px;
         }
         
+        cursor: pointer;
+        transition: transform .6s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

@@ -22,5 +22,65 @@
 
         width: 400px;
         align-items: center;
+
+        border: 1px solid var(--gray-300);
+        cursor: pointer;
+
+        &:hover {
+            border-color: var(--blue);
+        }
+
+        .media-logo {
+            height: 28px;
+            width: 28px;
+        }
+    }
+
+    .instagram {
+        i {
+            background-image: url(../assets/icons/InstagramLogo.svg);
+        }
+
+        &:hover {
+            i {
+                background-image: url(../assets/icons/InstagramLogo-hover.svg);
+            }
+        }
+    }
+
+    .linkedin {
+        i {
+            background-image: url(../assets/icons/LinkedinLogo.svg);
+        }
+
+        &:hover {
+            i {
+                background-image: url(../assets/icons/LinkedinLogo-hover.svg);
+            }
+        }
+    }
+        
+    .github {
+        i {
+            background-image: url(../assets/icons/GithubLogo.svg);
+        }
+
+        &:hover {
+            i {
+                background-image: url(../assets/icons/GithubLogo-hover.svg);
+            }
+        }
+    }
+        
+    .email {
+        i {
+            background-image: url(../assets/icons/EnvelopeSimple.svg);
+        }
+
+        &:hover {
+            i {
+                background-image: url(../assets/icons/EnvelopeSimple-hover.svg);
+            }
+        }
     }
 }
