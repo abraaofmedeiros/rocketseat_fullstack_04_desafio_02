@@ -1,0 +1,73 @@
+#intro {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    padding-block: 120px 60px;
+
+    #avatar {
+        width: 112px;
+        height: 112px;
+
+        margin-inline: auto;
+        margin-bottom: 56px;
+    }
+
+    #info {
+        margin-bottom: 94px;
+    }
+
+    header {
+        max-width: 680px;
+        margin-bottom: 80px;
+        margin-inline: auto;
+
+        div:nth-child(2) {
+            margin-bottom: 8px;
+            color: var(--gray-500);
+
+            span {
+                font: var(--subtitle);
+            }
+        }
+
+        h1 {
+            font: var(--title-lg);
+            color: var(--gray-600);
+            margin-bottom: 20px;
+        }
+    }
+
+    #tags {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+
+        .tag {
+            padding: 8px 16px;
+            background-color: var(--gray-300);
+            border-radius: 999px;
+
+            display: flex;
+            gap: 8px;
+
+            color: var(--gray-500);
+
+            .tag-icon {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    &>a:nth-child(2) {
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        display: block;
+    }
+}
+

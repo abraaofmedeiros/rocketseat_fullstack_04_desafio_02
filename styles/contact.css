@@ -1,0 +1,26 @@
+#contact {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-position: center;
+    background-size: cover;
+
+    &>div:nth-child(2) {
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .link-card {
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        padding: 20px;
+
+        display: flex;
+        gap: 12px;
+
+        span {
+            flex-grow: 1;
+        }
+
+        width: 400px;
+        align-items: center;
+    }
+}
