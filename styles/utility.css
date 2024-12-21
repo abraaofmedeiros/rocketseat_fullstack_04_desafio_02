@@ -25,13 +25,3 @@
 .text-md {
     font: var(--text-md);
 }
-
-.vh-100{
-    min-height: 100vh;
-/* 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-    justify-content: center; */
-}

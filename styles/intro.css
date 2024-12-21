@@ -4,7 +4,15 @@
     background-size: cover;
 
     text-align: center;
-    padding-block: 120px 60px;
+    padding-top: 60px;   
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
 
     #avatar {
         width: 112px;
@@ -71,8 +79,20 @@
             width: 32px;
             height: 32px;
         }
-
+        
+        animation: move 2s linear infinite;
         display: block;
     }
 }
 
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

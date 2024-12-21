@@ -1,5 +1,5 @@
 #projects {
-    padding-top: 72px;
+    padding-block: 72px 144px;
 
     &>div:nth-child(2) {
         grid-template-columns: repeat(3, 1fr);
